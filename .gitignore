@@ -1,0 +1,31 @@
+# Python (Servidor)
+/servidor/venv/
+__pycache__/
+*.pyc
+/servidor/descargas/
+
+# Node (UI)
+/ui/node_modules/
+/ui/dist/
+/ui/.vite/
+
+# Variables de entorno (explícitas por carpeta)
+/servidor/.env
+/ui/.env
+
+# (Opcional) Si en el futuro decides tener un .env en la raíz
+/.env
+
+# Excepción: Permitir archivos de ejemplo para que otros sepan qué variables necesitan
+!.env.example
+!**/.env.example
+
+# Editores y Sistema Operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Otros
+test_socket.py
+ytdl_prueba.pruebas.py
